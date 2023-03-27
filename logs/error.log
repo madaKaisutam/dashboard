@@ -1,0 +1,2 @@
+[Mon Mar 27 17:57:51.891381 2023] [wsgi:error] [pid 2418:tid 140106595866176] [remote 192.168.1.25:50462] Not Found: /min
+[Mon Mar 27 18:07:09.170572 2023] [wsgi:error] [pid 2715:tid 140162773227072] [remote 192.168.1.25:50499] Not Found: /min
