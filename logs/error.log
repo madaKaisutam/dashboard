@@ -1,2 +1,187 @@
 [Mon Mar 27 17:57:51.891381 2023] [wsgi:error] [pid 2418:tid 140106595866176] [remote 192.168.1.25:50462] Not Found: /min
 [Mon Mar 27 18:07:09.170572 2023] [wsgi:error] [pid 2715:tid 140162773227072] [remote 192.168.1.25:50499] Not Found: /min
+[Tue Mar 28 17:14:24.750897 2023] [wsgi:error] [pid 861:tid 140525445350976] [remote 192.168.1.25:49881] Not Found: /favicon.ico
+[Thu Mar 30 19:04:58.060586 2023] [wsgi:error] [pid 887:tid 140312457229888] [remote 192.168.1.25:54590] Not Found: /favicon.ico
+[Mon Apr 03 18:28:25.684904 2023] [wsgi:error] [pid 864:tid 139929271125568] [remote 192.168.1.25:56666] Not Found: /favicon.ico
+[Mon Apr 03 18:30:33.024117 2023] [wsgi:error] [pid 864:tid 139929271125568] [remote 192.168.1.25:56680] Not Found: /favicon.ico
+[Mon Apr 03 18:31:08.906543 2023] [wsgi:error] [pid 864:tid 139929271125568] [remote 192.168.1.25:56749] Not Found: /favicon.ico
+[Mon Apr 03 18:34:55.466443 2023] [wsgi:error] [pid 864:tid 139929271125568] [remote 192.168.1.10:49686] Not Found: /favicon.ico
+[Tue Apr 04 18:34:15.942927 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:52969] Not Found: /favicon.ico
+[Tue Apr 04 18:34:27.715986 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.10:59244] Not Found: /favicon.ico
+[Tue Apr 04 18:36:56.018637 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:52979] Not Found: /favicon.ico
+[Tue Apr 04 19:41:03.599538 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:41:03.599615 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003] Traceback (most recent call last):
+[Tue Apr 04 19:41:03.599650 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:41:03.599685 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]     response = get_response(request)
+[Tue Apr 04 19:41:03.599717 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:41:03.599752 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]     response = self.process_request(request)
+[Tue Apr 04 19:41:03.599786 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:41:03.599820 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]     host = request.get_host()
+[Tue Apr 04 19:41:03.599853 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:41:03.599887 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003]     raise DisallowedHost(msg)
+[Tue Apr 04 19:41:03.599922 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:41:03.723748 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54003] Bad Request: /
+[Tue Apr 04 19:41:03.854725 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:41:03.854764 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004] Traceback (most recent call last):
+[Tue Apr 04 19:41:03.854779 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:41:03.854822 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]     response = get_response(request)
+[Tue Apr 04 19:41:03.854837 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:41:03.854853 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]     response = self.process_request(request)
+[Tue Apr 04 19:41:03.854868 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:41:03.854883 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]     host = request.get_host()
+[Tue Apr 04 19:41:03.854897 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:41:03.854913 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004]     raise DisallowedHost(msg)
+[Tue Apr 04 19:41:03.854930 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:41:03.955359 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54004] Bad Request: /favicon.ico
+[Tue Apr 04 19:43:40.198491 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:40.198543 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084] Traceback (most recent call last):
+[Tue Apr 04 19:43:40.198554 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:40.198565 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]     response = get_response(request)
+[Tue Apr 04 19:43:40.198576 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:40.198587 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]     response = self.process_request(request)
+[Tue Apr 04 19:43:40.198597 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:40.198609 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]     host = request.get_host()
+[Tue Apr 04 19:43:40.198619 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:40.198630 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:40.198643 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:40.256955 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54084] Bad Request: /
+[Tue Apr 04 19:43:40.316459 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:40.316492 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085] Traceback (most recent call last):
+[Tue Apr 04 19:43:40.316521 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:40.316534 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]     response = get_response(request)
+[Tue Apr 04 19:43:40.316546 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:40.316558 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]     response = self.process_request(request)
+[Tue Apr 04 19:43:40.316570 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:40.316583 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]     host = request.get_host()
+[Tue Apr 04 19:43:40.316594 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:40.316607 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:40.316621 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:40.380038 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54085] Bad Request: /favicon.ico
+[Tue Apr 04 19:43:41.280435 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:41.280478 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087] Traceback (most recent call last):
+[Tue Apr 04 19:43:41.280491 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:41.280505 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]     response = get_response(request)
+[Tue Apr 04 19:43:41.280517 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:41.280530 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]     response = self.process_request(request)
+[Tue Apr 04 19:43:41.280543 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:41.280556 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]     host = request.get_host()
+[Tue Apr 04 19:43:41.280569 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:41.280582 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:41.280594 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:41.346182 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54087] Bad Request: /
+[Tue Apr 04 19:43:41.411456 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:41.411503 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088] Traceback (most recent call last):
+[Tue Apr 04 19:43:41.411516 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:41.411529 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]     response = get_response(request)
+[Tue Apr 04 19:43:41.411542 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:41.411555 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]     response = self.process_request(request)
+[Tue Apr 04 19:43:41.411567 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:41.411580 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]     host = request.get_host()
+[Tue Apr 04 19:43:41.411593 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:41.411606 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:41.411618 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:41.485283 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54088] Bad Request: /favicon.ico
+[Tue Apr 04 19:43:42.166367 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:42.166410 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089] Traceback (most recent call last):
+[Tue Apr 04 19:43:42.166426 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:42.166442 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]     response = get_response(request)
+[Tue Apr 04 19:43:42.166458 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:42.166474 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]     response = self.process_request(request)
+[Tue Apr 04 19:43:42.166490 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:42.166506 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]     host = request.get_host()
+[Tue Apr 04 19:43:42.166521 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:42.166537 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:42.166554 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:42.240638 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54089] Bad Request: /
+[Tue Apr 04 19:43:42.303266 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:42.303298 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090] Traceback (most recent call last):
+[Tue Apr 04 19:43:42.303311 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:42.303324 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]     response = get_response(request)
+[Tue Apr 04 19:43:42.303336 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:42.303350 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]     response = self.process_request(request)
+[Tue Apr 04 19:43:42.303362 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:42.303376 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]     host = request.get_host()
+[Tue Apr 04 19:43:42.303388 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:42.303401 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:42.303413 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:42.373871 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54090] Bad Request: /favicon.ico
+[Tue Apr 04 19:43:43.249324 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:43.249362 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092] Traceback (most recent call last):
+[Tue Apr 04 19:43:43.249375 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:43.249388 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]     response = get_response(request)
+[Tue Apr 04 19:43:43.249401 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:43.249414 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]     response = self.process_request(request)
+[Tue Apr 04 19:43:43.249427 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:43.249440 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]     host = request.get_host()
+[Tue Apr 04 19:43:43.249452 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:43.249485 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:43.249498 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:43.311275 2023] [wsgi:error] [pid 836:tid 140024634869312] [remote 192.168.1.25:54092] Bad Request: /
+[Tue Apr 04 19:43:43.371396 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093] Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:43.371428 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093] Traceback (most recent call last):
+[Tue Apr 04 19:43:43.371445 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Tue Apr 04 19:43:43.371462 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]     response = get_response(request)
+[Tue Apr 04 19:43:43.371478 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Tue Apr 04 19:43:43.371496 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]     response = self.process_request(request)
+[Tue Apr 04 19:43:43.371512 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Tue Apr 04 19:43:43.371529 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]     host = request.get_host()
+[Tue Apr 04 19:43:43.371545 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Tue Apr 04 19:43:43.371562 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093]     raise DisallowedHost(msg)
+[Tue Apr 04 19:43:43.371579 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.madakaisutam.pl'. You may need to add 'www.madakaisutam.pl' to ALLOWED_HOSTS.
+[Tue Apr 04 19:43:43.448419 2023] [wsgi:error] [pid 836:tid 140024685225536] [remote 192.168.1.25:54093] Bad Request: /favicon.ico
+[Tue Apr 04 19:45:27.621335 2023] [wsgi:error] [pid 2154:tid 139749832513088] [remote 192.168.1.25:54141] Not Found: /favicon.ico
+[Wed Apr 05 19:08:09.786247 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 192.168.1.25:54005] Not Found: /favicon.ico
+[Wed Apr 05 19:21:40.345512 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060] Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:21:40.345609 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060] Traceback (most recent call last):
+[Wed Apr 05 19:21:40.345646 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Wed Apr 05 19:21:40.345681 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]     response = get_response(request)
+[Wed Apr 05 19:21:40.345714 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Wed Apr 05 19:21:40.345749 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]     response = self.process_request(request)
+[Wed Apr 05 19:21:40.345783 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Wed Apr 05 19:21:40.345853 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]     host = request.get_host()
+[Wed Apr 05 19:21:40.345886 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Wed Apr 05 19:21:40.345920 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060]     raise DisallowedHost(msg)
+[Wed Apr 05 19:21:40.345952 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:21:40.474194 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 83.29.78.85:54060] Bad Request: /
+[Wed Apr 05 19:21:40.610192 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061] Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:21:40.610224 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061] Traceback (most recent call last):
+[Wed Apr 05 19:21:40.610239 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Wed Apr 05 19:21:40.610254 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]     response = get_response(request)
+[Wed Apr 05 19:21:40.610269 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Wed Apr 05 19:21:40.610284 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]     response = self.process_request(request)
+[Wed Apr 05 19:21:40.610298 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Wed Apr 05 19:21:40.610314 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]     host = request.get_host()
+[Wed Apr 05 19:21:40.610328 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Wed Apr 05 19:21:40.610343 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061]     raise DisallowedHost(msg)
+[Wed Apr 05 19:21:40.610357 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:21:40.715383 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 83.29.78.85:54061] Bad Request: /favicon.ico
+[Wed Apr 05 19:22:25.237319 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649] Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:22:25.237366 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649] Traceback (most recent call last):
+[Wed Apr 05 19:22:25.237377 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Wed Apr 05 19:22:25.237388 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]     response = get_response(request)
+[Wed Apr 05 19:22:25.237399 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Wed Apr 05 19:22:25.237410 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]     response = self.process_request(request)
+[Wed Apr 05 19:22:25.237436 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Wed Apr 05 19:22:25.237447 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]     host = request.get_host()
+[Wed Apr 05 19:22:25.237458 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Wed Apr 05 19:22:25.237469 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649]     raise DisallowedHost(msg)
+[Wed Apr 05 19:22:25.237479 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:22:25.291179 2023] [wsgi:error] [pid 833:tid 140093150938688] [remote 37.225.17.42:19649] Bad Request: /
+[Wed Apr 05 19:22:25.658500 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281] Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:22:25.658531 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281] Traceback (most recent call last):
+[Wed Apr 05 19:22:25.658543 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+[Wed Apr 05 19:22:25.658556 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]     response = get_response(request)
+[Wed Apr 05 19:22:25.658567 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Wed Apr 05 19:22:25.658580 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]     response = self.process_request(request)
+[Wed Apr 05 19:22:25.658592 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+[Wed Apr 05 19:22:25.658604 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]     host = request.get_host()
+[Wed Apr 05 19:22:25.658616 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]   File "/home/adam/dashboard/venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+[Wed Apr 05 19:22:25.658628 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281]     raise DisallowedHost(msg)
+[Wed Apr 05 19:22:25.658640 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.29.78.85'. You may need to add '83.29.78.85' to ALLOWED_HOSTS.
+[Wed Apr 05 19:22:25.724697 2023] [wsgi:error] [pid 833:tid 140093192902208] [remote 37.225.17.42:26281] Bad Request: /favicon.ico
+[Wed Apr 05 19:24:53.862085 2023] [wsgi:error] [pid 2039:tid 139843327723072] [remote 37.225.17.42:23624] Not Found: /favicon.ico
+[Wed Apr 05 19:29:11.651761 2023] [wsgi:error] [pid 2039:tid 139843327723072] [remote 83.29.78.85:54080] Not Found: /favicon.ico
+[Wed Apr 05 19:35:48.365502 2023] [wsgi:error] [pid 2039:tid 139843327723072] [remote 83.29.78.85:54094] Not Found: /min
+[Thu Apr 06 18:24:37.445483 2023] [wsgi:error] [pid 853:tid 139897438459456] [remote 37.225.17.42:26207] Not Found: /favicon.ico
+[Thu Apr 06 18:24:56.486767 2023] [wsgi:error] [pid 853:tid 139897438459456] [remote 83.29.78.85:54449] Not Found: /favicon.ico
+[Thu Apr 06 18:55:34.340231 2023] [wsgi:error] [pid 853:tid 139897430066752] [remote 83.29.78.85:39672] Not Found: /favicon.ico

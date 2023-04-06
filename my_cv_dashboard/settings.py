@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(^-*byym(_2waww#+qik3(71_@m0!z#ul(=mxzw&+6co!d&m3#
 DEBUG = True
 
 # Sie to sprawdzi
-ALLOWED_HOSTS = ['192.168.1.23']
+ALLOWED_HOSTS = ['192.168.1.23', '83.29.78.85', 'madakaisutam.pl', 'www.madakaisutam.pl', '127.0.0.1']
 
 
 # Application definition
